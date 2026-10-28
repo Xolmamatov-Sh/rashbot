@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2563eb">
+  <title>RASH Test — Telegram Mini App</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand-mark">R</div>
+      <div class="brand-copy">
+        <strong>RASH TEST</strong>
+        <span>Milliy sertifikat uchun test platformasi</span>
+      </div>
+      <span class="live-pill"><i></i> Online</span>
+    </header>
+    <div id="telegram-warning" class="notice hidden">
+      Bu ilovani to'g'ri ishlatish uchun uni Telegram bot ichidagi tugma orqali oching.
+    </div>
+    <main id="app" class="content" aria-live="polite">
+      <div class="loading-card"><div class="spinner"></div><span>Ilova yuklanmoqda...</span></div>
+    </main>
+    <footer class="footer"><span>Telegram Mini App</span><span>RASH Test platformasi</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
